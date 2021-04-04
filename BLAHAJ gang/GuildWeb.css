@@ -1,0 +1,95 @@
+.header
+{
+text-align: center;
+padding: 40px;
+background-color:crimson;
+color: white;
+font-size: 40px;
+font-family: consolas;
+font-weight: bold;
+}
+.welcome_div{
+		position: relative;
+	overflow:hidden;
+
+}
+
+.welcome_div img{
+	height: 500px;
+	width: 1350px;
+	opacity: 0.8;
+
+}
+.welcome_text{
+	position: absolute;
+	top:30%;
+	left:33%;
+	text-align: center;
+	font-size: 40px;
+	font-family: consolas;
+	font-weight:bolder;
+}
+.melonyy img{
+height: 40px;
+width: 40px;
+opacity: 0.5;
+animation: melonyy 7s linear infinite;
+}
+.melonyy{
+	  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes melonyy{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.9;
+    }
+    70%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity:0 ;
+    }
+   
+}
+
+.melonyy img:nth-child(1){
+    animation-delay: 2s;
+    width:25px;
+    height: 25px;
+}
+.melonyy img:nth-child(2){
+    animation-delay: 1s;
+}
+.melonyy img:nth-child(3){
+    animation-delay: 3s;
+    width:30px;
+    height:30px;
+}
+.melonyy img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.melonyy img:nth-child(5){
+    animation-delay: 1s;
+    width:25px;
+    height:25px;
+}
+.melonyy img:nth-child(6){
+    animation-delay: 2s;
+}
+.melonyy img:nth-child(7){
+    animation-delay: 4s;
+    width:30px;
+    height:30px;
+}
+.melonyy img:nth-child(8){
+    animation-delay: 4.5s;
+}
